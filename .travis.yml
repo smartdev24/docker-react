@@ -8,8 +8,8 @@ before_install:
 # env:
 #  - CI=true
 
-# script:
-#  - docker run hirenshah24/docker-react npm test -- --coverage
+ script:
+  - docker run hirenshah24/docker-react npm test -- --coverage
 
 
 
